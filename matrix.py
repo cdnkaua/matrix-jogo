@@ -3,7 +3,6 @@ import sys
 
 
 def digitar(texto, delay=0.03):
-    """Efeito de digitação para deixar mais cinematográfico."""
     for char in texto:
         print(char, end='', flush=True)
         time.sleep(delay)
